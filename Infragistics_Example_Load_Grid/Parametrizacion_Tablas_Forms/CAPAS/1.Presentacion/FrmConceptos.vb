@@ -13,6 +13,7 @@ Public Class FrmConceptos
     End Sub
     ''' <summary>
     ''' Carga el grid con el resultado de los conceptos
+    ''' Prueba
     ''' </summary>
     ''' <remarks>Juan Ricardo Diaz - 2016-07-08</remarks>
     Public Sub CargarGridConceptos()
