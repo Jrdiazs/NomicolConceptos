@@ -1,0 +1,45 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Parametrizacion_Tablas_Forms
+</name>
+</assembly>
+<members>
+<member name="M:Parametrizacion_Tablas_Forms.ConceptosNegocio.GuardarConcepto(Parametrizacion_Tablas_Forms.Conceptos)">
+	<summary>
+ Guarda o modifica el concepto
+ </summary>
+	<param name="Concepto">Concepto</param>
+	<remarks>Juan Ricardo Diaz 2016-07-18</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.ConceptosNegocio.ConsultarConceptos">
+	<summary>
+ Lista todo los conceptos de base de datos
+ </summary>
+	<returns></returns>
+	<remarks>Juan Ricardo Diaz 2016-07-18</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.AccesoDatosConcepto.ConsultarConceptos(System.Nullable{System.Int32},System.String)">
+	<summary>
+ Consulta todo el listado de la tabla conceptos
+ </summary>
+	<param name="Codigo">Codigo del concepto</param>
+	<param name="Descripcion">Descripcion del concepto</param>
+	<returns></returns>
+	<remarks>Juan R Diaz 2016-07-17</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.AccesoDatosConcepto.ConsultarConceptosPorId(System.Int32)">
+	<summary>
+ Consulta el concepto por id
+ </summary>
+	<param name="Codigo">Codigo Id</param>
+	<returns></returns>
+	<remarks>Juan R Diaz 2016-07-17</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.AccesoDatosConcepto.GuardarConcepto(Parametrizacion_Tablas_Forms.Conceptos)">
+	<summary>
+ Guarda o modifica el concepto
+ </summary>
+	<param name="Concepto">Concepto</param>
+	<returns></returns>
+	<remarks>Juan Ricardo Diaz 2016-07-18</remarks>
+</member>
+</members>
+</doc>
