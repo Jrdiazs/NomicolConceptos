@@ -1,11 +1,12 @@
 ﻿Imports System.ComponentModel
 
 Public Class ConceptosNegocio
+#Region "[Conceptos]"
     ''' <summary>
     ''' Guarda o modifica el concepto
     ''' </summary>
     ''' <param name="Concepto">Concepto</param>
-    ''' <remarks>Juan Ricardo Diaz 2016-07-18</remarks>
+    ''' <remarks>Juan Ricardo Diaz 2016-07-07</remarks>
     Public Function GuardarConcepto(ByVal Concepto As Conceptos) As ValorEntidad(Of Conceptos)
         Dim Value As New ValorEntidad(Of Conceptos)
         Try
@@ -29,7 +30,7 @@ Public Class ConceptosNegocio
     ''' Lista todo los conceptos de base de datos
     ''' </summary>
     ''' <returns></returns>
-    ''' <remarks>Juan Ricardo Diaz 2016-07-18</remarks>
+    ''' <remarks>Juan Ricardo Diaz 2016-07-07</remarks>
     Public Function ConsultarConceptos() As ValorEntidad(Of BindingList(Of Conceptos))
         Dim Value As New ValorEntidad(Of BindingList(Of Conceptos))
         Try
@@ -40,5 +41,5 @@ Public Class ConceptosNegocio
         End Try
         Return Value
     End Function
-
+#End Region
 End Class

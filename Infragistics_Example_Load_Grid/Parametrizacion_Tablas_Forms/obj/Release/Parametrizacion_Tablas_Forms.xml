@@ -6,18 +6,147 @@ Parametrizacion_Tablas_Forms
 </name>
 </assembly>
 <members>
-<member name="M:Parametrizacion_Tablas_Forms.ConceptosNegocio.GuardarConcepto(Parametrizacion_Tablas_Forms.Conceptos)">
+<member name="P:Parametrizacion_Tablas_Forms.ValorEntidad`1.Error">
+	<summary>
+ Para identificar si se ha generado un error
+ </summary>
+	<value>boolean</value>
+	<returns></returns>
+	<remarks>Juan Ricardo Diaz - 2016-07-08</remarks>
+</member><member name="P:Parametrizacion_Tablas_Forms.ValorEntidad`1.ErrorMessage">
+	<summary>
+ Para generar un mensaje alternativo al error de la excepcion
+ </summary>
+	<value>string</value>
+	<returns></returns>
+	<remarks>Juan Ricardo Diaz - 2016-07-08</remarks>
+</member><member name="P:Parametrizacion_Tablas_Forms.ValorEntidad`1.ErrorException">
+	<summary>
+ Para obtener el mensaje de error de la excepcion
+ </summary>
+	<value>String</value>
+	<returns></returns>
+	<remarks>Juan Ricardo Diaz - 2016-07-08</remarks>
+</member><member name="P:Parametrizacion_Tablas_Forms.ValorEntidad`1.Valor">
+	<summary>
+ Para obtener el valor de la entidad si no se ha generado un error
+ </summary>
+	<value>T Entity</value>
+	<returns></returns>
+	<remarks>Juan Ricardo Diaz - 2016-07-08</remarks>
+</member><member name="P:Parametrizacion_Tablas_Forms.ValorEntidad`1.TipoError">
+	<summary>
+ Para identificar que tipo de error es
+ </summary>
+	<value>Enum Type EnumTipoError</value>
+	<returns></returns>
+	<remarks>Juan Ricardo Diaz - 2016-07-08</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.ValorEntidad`1.GenerarError(System.String,Parametrizacion_Tablas_Forms.EnumTipoError,System.Exception)">
+	<summary>
+ Metodo para generar un error 
+ </summary>
+	<param name="Message">Mensaje alternativo para mostrar al usuario</param>
+	<param name="Type">Enum para identificar el tipo de error</param>
+	<param name="Ex">exception</param>
+	<remarks>Juan Ricardo Diaz - 2016-07-08</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.ValorEntidad`1.GetInner(System.Exception)">
+	<summary>
+ metodo para obtener el mensaje interno de la excepcion
+ </summary>
+	<param name="ex"></param>
+	<returns></returns>
+	<remarks>Juan Ricardo Diaz - 2016-07-08</remarks>
+</member><member name="T:Parametrizacion_Tablas_Forms.ValorEntidad`1">
+	<summary>
+ Resultado para validar las entidades de conceptos
+ </summary>
+	<typeparam name="T">Tipo de entidad</typeparam>
+	<remarks>Juan Ricardo Diaz - 2016-07-08</remarks>
+</member><member name="T:Parametrizacion_Tablas_Forms.EnumTipoError">
+	<summary>
+ Enum que representa el tipo de error de una entidad
+ </summary>
+	<remarks>Juan Ricardo Diaz - 2016-07-08</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.FrmConceptos.FrmConceptos_Load(System.Object,System.EventArgs)">
+	<summary>
+ Load Frame
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks>Juan Ricardo Diaz - 2016-07-08</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.FrmConceptos.CargarGridConceptos">
+	<summary>
+ Carga el grid con el resultado de los conceptos
+ </summary>
+	<remarks>Juan Ricardo Diaz - 2016-07-08</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.FrmConceptos.GVConceptos_AfterRowInsert(System.Object,Infragistics.Win.UltraWinGrid.RowEventArgs)">
+	<summary>
+ Metodo para insertar un nuevo concepto con el evento del grid view
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks>Juan Ricardo Diaz - 2016-07-08</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.FrmConceptos.MostrarMensaje``1(Parametrizacion_Tablas_Forms.ValorEntidad{``0})">
+	<summary>
+ Metodo para mostrar un mensaje de error o advertencia segun el resultado de la entidad
+ </summary>
+	<typeparam name="T">Type ValorEntidad</typeparam>
+	<param name="Resultado">ValorEntidad</param>
+	<remarks>Juan Ricardo Diaz - 2016-07-08</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.ConceptosNegocio.GuardarConcepto(Parametrizacion_Tablas_Forms.Conceptos)">
 	<summary>
  Guarda o modifica el concepto
  </summary>
 	<param name="Concepto">Concepto</param>
-	<remarks>Juan Ricardo Diaz 2016-07-18</remarks>
+	<remarks>Juan Ricardo Diaz 2016-07-07</remarks>
 </member><member name="M:Parametrizacion_Tablas_Forms.ConceptosNegocio.ConsultarConceptos">
 	<summary>
  Lista todo los conceptos de base de datos
  </summary>
 	<returns></returns>
-	<remarks>Juan Ricardo Diaz 2016-07-18</remarks>
+	<remarks>Juan Ricardo Diaz 2016-07-07</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.Conceptos.Validar(System.String@)">
+	<summary>
+ Metodo para validar la entidad de conceptos por medio de la clase ConceptosValidator
+ </summary>
+	<param name="Errores">retorna el mensaje de error de las validaciones de la entidad</param>
+	<returns>true si la entidad es valida</returns>
+	<remarks>Juan Ricardo Diaz - 2016-07-08</remarks>
+</member><member name="T:Parametrizacion_Tablas_Forms.Conceptos">
+	<summary>
+ Clase entidad equivalente a CONCEPTOS
+ </summary>
+	<remarks>Juan Ricardo Diaz - 2016-07-08</remarks>
+</member><member name="T:Parametrizacion_Tablas_Forms.ConceptosValidator">
+	<summary>
+ Clase para validad la entidad de conceptos
+ </summary>
+	<remarks>Juan Ricardo Diaz - 2016-07-08</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.AccesoDatosConcepto.ParametroInput(System.String,System.Object)">
+	<summary>
+ Crear un SqlParameter tipo Input
+ </summary>
+	<param name="Nombre">Nombre del parametro</param>
+	<param name="Valor">Valor del parametro</param>
+	<returns>SqlParameter</returns>
+	<remarks>Juan Ricardo Diaz - 2016-07-07</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.AccesoDatosConcepto.ParametroOutput(System.String,System.Int32)">
+	<summary>
+ Crear un SqlParameter de tipo Output
+ </summary>
+	<param name="Nombre">Nombre del parametro</param>
+	<param name="Size">Tamaño en longitud del parametro</param>
+	<returns>SqlParameter</returns>
+	<remarks>Juan Ricardo Diaz - 2016-07-07</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.AccesoDatosConcepto.ParametroOutputInput(System.String,System.Object,System.Int32)">
+	<summary>
+ Crea un SqlParameter de tipi OutputInput
+ </summary>
+	<param name="Nombre">Nombre del parametro</param>
+	<param name="Valor">Valor del parametro</param>
+	<param name="Size">Tamaño en longitud del parametro</param>
+	<returns>SqlParameter</returns>
+	<remarks>Juan Ricardo Diaz - 2016-07-07</remarks>
 </member><member name="M:Parametrizacion_Tablas_Forms.AccesoDatosConcepto.ConsultarConceptos(System.Nullable{System.Int32},System.String)">
 	<summary>
  Consulta todo el listado de la tabla conceptos
@@ -25,7 +154,7 @@ Parametrizacion_Tablas_Forms
 	<param name="Codigo">Codigo del concepto</param>
 	<param name="Descripcion">Descripcion del concepto</param>
 	<returns></returns>
-	<remarks>Juan R Diaz 2016-07-17</remarks>
+	<remarks>Juan R Diaz 2016-07-07</remarks>
 </member><member name="M:Parametrizacion_Tablas_Forms.AccesoDatosConcepto.ConsultarConceptosPorId(System.Int32)">
 	<summary>
  Consulta el concepto por id
@@ -39,7 +168,7 @@ Parametrizacion_Tablas_Forms
  </summary>
 	<param name="Concepto">Concepto</param>
 	<returns></returns>
-	<remarks>Juan Ricardo Diaz 2016-07-18</remarks>
+	<remarks>Juan Ricardo Diaz 2016-07-07</remarks>
 </member>
 </members>
 </doc>

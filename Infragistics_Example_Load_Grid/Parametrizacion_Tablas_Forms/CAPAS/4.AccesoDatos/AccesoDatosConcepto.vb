@@ -4,11 +4,27 @@ Imports System.ComponentModel
 
 Public Class AccesoDatosConcepto
     Shared Conexion As String = Configuration.ConfigurationManager.AppSettings("Conexion").ToString
+
+#Region "[Metodos Comunes]"
+    ''' <summary>
+    ''' Crear un SqlParameter tipo Input
+    ''' </summary>
+    ''' <param name="Nombre">Nombre del parametro</param>
+    ''' <param name="Valor">Valor del parametro</param>
+    ''' <returns>SqlParameter</returns>
+    ''' <remarks>Juan Ricardo Diaz - 2016-07-07</remarks>
     Public Shared Function ParametroInput(ByVal Nombre As String, ByVal Valor As Object) As SqlParameter
         Dim Param As New SqlParameter(Nombre, Valor)
         Param.Direction = ParameterDirection.Input
         Return Param
     End Function
+    ''' <summary>
+    ''' Crear un SqlParameter de tipo Output
+    ''' </summary>
+    ''' <param name="Nombre">Nombre del parametro</param>
+    ''' <param name="Size">Tamaño en longitud del parametro</param>
+    ''' <returns>SqlParameter</returns>
+    ''' <remarks>Juan Ricardo Diaz - 2016-07-07</remarks>
     Public Shared Function ParametroOutput(ByVal Nombre As String, ByVal Size As Integer) As SqlParameter
         Dim Param As New SqlParameter()
         Param.Direction = ParameterDirection.Output
@@ -16,6 +32,14 @@ Public Class AccesoDatosConcepto
         Param.ParameterName = Nombre
         Return Param
     End Function
+    ''' <summary>
+    ''' Crea un SqlParameter de tipi OutputInput
+    ''' </summary>
+    ''' <param name="Nombre">Nombre del parametro</param>
+    ''' <param name="Valor">Valor del parametro</param>
+    ''' <param name="Size">Tamaño en longitud del parametro</param>
+    ''' <returns>SqlParameter</returns>
+    ''' <remarks>Juan Ricardo Diaz - 2016-07-07</remarks>
     Public Shared Function ParametroOutputInput(ByVal Nombre As String, ByVal Valor As Object, ByVal Size As Integer) As SqlParameter
         Dim Param As New SqlParameter()
         Param.Direction = ParameterDirection.InputOutput
@@ -24,14 +48,15 @@ Public Class AccesoDatosConcepto
         Param.Value = Valor
         Return Param
     End Function
-#Region "CONCEPTOS"
+#End Region
+#Region "[Conceptos]"
     ''' <summary>
     ''' Consulta todo el listado de la tabla conceptos
     ''' </summary>
     ''' <param name="Codigo">Codigo del concepto</param>
     ''' <param name="Descripcion">Descripcion del concepto</param>
     ''' <returns></returns>
-    ''' <remarks>Juan R Diaz 2016-07-17</remarks>
+    ''' <remarks>Juan R Diaz 2016-07-07</remarks>
     Public Shared Function ConsultarConceptos(ByVal Codigo As Integer?, ByVal Descripcion As String) As List(Of Conceptos)
         Dim Conceptos As New List(Of Conceptos)
         Try
@@ -70,7 +95,7 @@ Public Class AccesoDatosConcepto
     ''' </summary>
     ''' <param name="Concepto">Concepto</param>
     ''' <returns></returns>
-    ''' <remarks>Juan Ricardo Diaz 2016-07-18</remarks>
+    ''' <remarks>Juan Ricardo Diaz 2016-07-07</remarks>
     Public Shared Function GuardarConcepto(ByVal Concepto As Conceptos) As Integer
         Try
             Dim Parameters As New List(Of SqlParameter)(New SqlParameter() _
@@ -115,5 +140,4 @@ Public Class AccesoDatosConcepto
         End Try
     End Function
 #End Region
-
 End Class

@@ -1,4 +1,8 @@
 ﻿Imports FluentValidation
+''' <summary>
+''' Clase entidad equivalente a CONCEPTOS
+''' </summary>
+''' <remarks>Juan Ricardo Diaz - 2016-07-08</remarks>
 Public Class Conceptos
 
 #Region "Properties"
@@ -300,7 +304,12 @@ Public Class Conceptos
         End Set
     End Property
 #End Region
-
+    ''' <summary>
+    ''' Metodo para validar la entidad de conceptos por medio de la clase ConceptosValidator
+    ''' </summary>
+    ''' <param name="Errores">retorna el mensaje de error de las validaciones de la entidad</param>
+    ''' <returns>true si la entidad es valida</returns>
+    ''' <remarks>Juan Ricardo Diaz - 2016-07-08</remarks>
     Public Function Validar(ByRef Errores As String) As Boolean
         Dim Resultado = New ConceptosValidator().Validate(Me)
         If (Resultado.Errors.Count > 0) Then
@@ -312,7 +321,10 @@ Public Class Conceptos
     End Function
 
 End Class
-
+''' <summary>
+''' Clase para validad la entidad de conceptos
+''' </summary>
+''' <remarks>Juan Ricardo Diaz - 2016-07-08</remarks>
 Public Class ConceptosValidator
     Inherits AbstractValidator(Of Conceptos)
 

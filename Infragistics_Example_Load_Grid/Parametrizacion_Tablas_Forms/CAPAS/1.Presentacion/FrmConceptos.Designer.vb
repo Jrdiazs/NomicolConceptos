@@ -23,7 +23,7 @@ Partial Class FrmConceptos
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container
-        Dim Appearance1 As Infragistics.Win.Appearance = New Infragistics.Win.Appearance
+        Dim Appearance7 As Infragistics.Win.Appearance = New Infragistics.Win.Appearance
         Dim UltraGridBand1 As Infragistics.Win.UltraWinGrid.UltraGridBand = New Infragistics.Win.UltraWinGrid.UltraGridBand("Band 0", -1)
         Dim UltraGridColumn1 As Infragistics.Win.UltraWinGrid.UltraGridColumn = New Infragistics.Win.UltraWinGrid.UltraGridColumn("Codigo")
         Dim UltraGridColumn2 As Infragistics.Win.UltraWinGrid.UltraGridColumn = New Infragistics.Win.UltraWinGrid.UltraGridColumn("Descripcion")
@@ -58,13 +58,11 @@ Partial Class FrmConceptos
         Dim UltraGridColumn31 As Infragistics.Win.UltraWinGrid.UltraGridColumn = New Infragistics.Win.UltraWinGrid.UltraGridColumn("NoConstitutivoSS")
         Dim UltraGridColumn32 As Infragistics.Win.UltraWinGrid.UltraGridColumn = New Infragistics.Win.UltraWinGrid.UltraGridColumn("NovPendientes")
         Dim UltraGridColumn33 As Infragistics.Win.UltraWinGrid.UltraGridColumn = New Infragistics.Win.UltraWinGrid.UltraGridColumn("Compl_Exonerado_P")
-        Dim UltraGridColumn34 As Infragistics.Win.UltraWinGrid.UltraGridColumn = New Infragistics.Win.UltraWinGrid.UltraGridColumn("IsError")
-        Dim UltraGridColumn35 As Infragistics.Win.UltraWinGrid.UltraGridColumn = New Infragistics.Win.UltraWinGrid.UltraGridColumn("Value")
-        Dim Appearance2 As Infragistics.Win.Appearance = New Infragistics.Win.Appearance
-        Dim Appearance3 As Infragistics.Win.Appearance = New Infragistics.Win.Appearance
-        Dim Appearance4 As Infragistics.Win.Appearance = New Infragistics.Win.Appearance
-        Dim Appearance5 As Infragistics.Win.Appearance = New Infragistics.Win.Appearance
-        Dim Appearance6 As Infragistics.Win.Appearance = New Infragistics.Win.Appearance
+        Dim Appearance8 As Infragistics.Win.Appearance = New Infragistics.Win.Appearance
+        Dim Appearance9 As Infragistics.Win.Appearance = New Infragistics.Win.Appearance
+        Dim Appearance10 As Infragistics.Win.Appearance = New Infragistics.Win.Appearance
+        Dim Appearance11 As Infragistics.Win.Appearance = New Infragistics.Win.Appearance
+        Dim Appearance12 As Infragistics.Win.Appearance = New Infragistics.Win.Appearance
         Dim UltraDataColumn1 As Infragistics.Win.UltraWinDataSource.UltraDataColumn = New Infragistics.Win.UltraWinDataSource.UltraDataColumn("Codigo")
         Dim UltraDataColumn2 As Infragistics.Win.UltraWinDataSource.UltraDataColumn = New Infragistics.Win.UltraWinDataSource.UltraDataColumn("Descripcion")
         Dim UltraDataColumn3 As Infragistics.Win.UltraWinDataSource.UltraDataColumn = New Infragistics.Win.UltraWinDataSource.UltraDataColumn("Tipo")
@@ -98,8 +96,6 @@ Partial Class FrmConceptos
         Dim UltraDataColumn31 As Infragistics.Win.UltraWinDataSource.UltraDataColumn = New Infragistics.Win.UltraWinDataSource.UltraDataColumn("NoConstitutivoSS")
         Dim UltraDataColumn32 As Infragistics.Win.UltraWinDataSource.UltraDataColumn = New Infragistics.Win.UltraWinDataSource.UltraDataColumn("NovPendientes")
         Dim UltraDataColumn33 As Infragistics.Win.UltraWinDataSource.UltraDataColumn = New Infragistics.Win.UltraWinDataSource.UltraDataColumn("Compl_Exonerado_P")
-        Dim UltraDataColumn34 As Infragistics.Win.UltraWinDataSource.UltraDataColumn = New Infragistics.Win.UltraWinDataSource.UltraDataColumn("IsError")
-        Dim UltraDataColumn35 As Infragistics.Win.UltraWinDataSource.UltraDataColumn = New Infragistics.Win.UltraWinDataSource.UltraDataColumn("Value")
         Me.GVConceptos = New Infragistics.Win.UltraWinGrid.UltraGrid
         Me.UDS_Conceptos = New Infragistics.Win.UltraWinDataSource.UltraDataSource(Me.components)
         CType(Me.GVConceptos, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -110,10 +106,10 @@ Partial Class FrmConceptos
         '
         Me.GVConceptos.AccessibleRole = System.Windows.Forms.AccessibleRole.Grip
         Me.GVConceptos.DataSource = Me.UDS_Conceptos
-        Appearance1.BackColor = System.Drawing.Color.White
-        Appearance1.BackColor2 = System.Drawing.Color.FromArgb(CType(CType(168, Byte), Integer), CType(CType(167, Byte), Integer), CType(CType(191, Byte), Integer))
-        Appearance1.BackGradientStyle = Infragistics.Win.GradientStyle.ForwardDiagonal
-        Me.GVConceptos.DisplayLayout.Appearance = Appearance1
+        Appearance7.BackColor = System.Drawing.Color.White
+        Appearance7.BackColor2 = System.Drawing.Color.FromArgb(CType(CType(168, Byte), Integer), CType(CType(167, Byte), Integer), CType(CType(191, Byte), Integer))
+        Appearance7.BackGradientStyle = Infragistics.Win.GradientStyle.ForwardDiagonal
+        Me.GVConceptos.DisplayLayout.Appearance = Appearance7
         UltraGridColumn1.AutoCompleteMode = Infragistics.Win.AutoCompleteMode.Append
         UltraGridColumn1.Header.VisiblePosition = 0
         UltraGridColumn1.Width = 51
@@ -191,12 +187,7 @@ Partial Class FrmConceptos
         UltraGridColumn32.Header.VisiblePosition = 31
         UltraGridColumn33.AutoCompleteMode = Infragistics.Win.AutoCompleteMode.Append
         UltraGridColumn33.Header.VisiblePosition = 32
-        UltraGridColumn34.AutoCompleteMode = Infragistics.Win.AutoCompleteMode.Append
-        UltraGridColumn34.Header.VisiblePosition = 33
-        UltraGridColumn34.Hidden = True
-        UltraGridColumn35.Header.VisiblePosition = 34
-        UltraGridColumn35.Hidden = True
-        UltraGridBand1.Columns.AddRange(New Object() {UltraGridColumn1, UltraGridColumn2, UltraGridColumn3, UltraGridColumn4, UltraGridColumn5, UltraGridColumn6, UltraGridColumn7, UltraGridColumn8, UltraGridColumn9, UltraGridColumn10, UltraGridColumn11, UltraGridColumn12, UltraGridColumn13, UltraGridColumn14, UltraGridColumn15, UltraGridColumn16, UltraGridColumn17, UltraGridColumn18, UltraGridColumn19, UltraGridColumn20, UltraGridColumn21, UltraGridColumn22, UltraGridColumn23, UltraGridColumn24, UltraGridColumn25, UltraGridColumn26, UltraGridColumn27, UltraGridColumn28, UltraGridColumn29, UltraGridColumn30, UltraGridColumn31, UltraGridColumn32, UltraGridColumn33, UltraGridColumn34, UltraGridColumn35})
+        UltraGridBand1.Columns.AddRange(New Object() {UltraGridColumn1, UltraGridColumn2, UltraGridColumn3, UltraGridColumn4, UltraGridColumn5, UltraGridColumn6, UltraGridColumn7, UltraGridColumn8, UltraGridColumn9, UltraGridColumn10, UltraGridColumn11, UltraGridColumn12, UltraGridColumn13, UltraGridColumn14, UltraGridColumn15, UltraGridColumn16, UltraGridColumn17, UltraGridColumn18, UltraGridColumn19, UltraGridColumn20, UltraGridColumn21, UltraGridColumn22, UltraGridColumn23, UltraGridColumn24, UltraGridColumn25, UltraGridColumn26, UltraGridColumn27, UltraGridColumn28, UltraGridColumn29, UltraGridColumn30, UltraGridColumn31, UltraGridColumn32, UltraGridColumn33})
         UltraGridBand1.Override.AllowDelete = Infragistics.Win.DefaultableBoolean.[False]
         UltraGridBand1.Override.AllowUpdate = Infragistics.Win.DefaultableBoolean.[True]
         Me.GVConceptos.DisplayLayout.BandsSerializer.Add(UltraGridBand1)
@@ -204,28 +195,28 @@ Partial Class FrmConceptos
         Me.GVConceptos.DisplayLayout.Override.AllowAddNew = Infragistics.Win.UltraWinGrid.AllowAddNew.TemplateOnBottom
         Me.GVConceptos.DisplayLayout.Override.AllowDelete = Infragistics.Win.DefaultableBoolean.[True]
         Me.GVConceptos.DisplayLayout.Override.AllowUpdate = Infragistics.Win.DefaultableBoolean.[True]
-        Appearance2.BackColor = System.Drawing.Color.Transparent
-        Me.GVConceptos.DisplayLayout.Override.CardAreaAppearance = Appearance2
-        Appearance3.BackColor = System.Drawing.Color.FromArgb(CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer), CType(CType(249, Byte), Integer))
-        Appearance3.BackColor2 = System.Drawing.Color.FromArgb(CType(CType(168, Byte), Integer), CType(CType(167, Byte), Integer), CType(CType(191, Byte), Integer))
-        Appearance3.BackGradientStyle = Infragistics.Win.GradientStyle.Vertical
-        Appearance3.ForeColor = System.Drawing.Color.Black
-        Appearance3.TextHAlignAsString = "Left"
-        Appearance3.ThemedElementAlpha = Infragistics.Win.Alpha.Transparent
-        Me.GVConceptos.DisplayLayout.Override.HeaderAppearance = Appearance3
-        Appearance4.BorderColor = System.Drawing.Color.FromArgb(CType(CType(168, Byte), Integer), CType(CType(167, Byte), Integer), CType(CType(191, Byte), Integer))
-        Me.GVConceptos.DisplayLayout.Override.RowAppearance = Appearance4
-        Appearance5.BackColor = System.Drawing.Color.FromArgb(CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer), CType(CType(249, Byte), Integer))
-        Appearance5.BackColor2 = System.Drawing.Color.FromArgb(CType(CType(168, Byte), Integer), CType(CType(167, Byte), Integer), CType(CType(191, Byte), Integer))
-        Appearance5.BackGradientStyle = Infragistics.Win.GradientStyle.Vertical
-        Me.GVConceptos.DisplayLayout.Override.RowSelectorAppearance = Appearance5
+        Appearance8.BackColor = System.Drawing.Color.Transparent
+        Me.GVConceptos.DisplayLayout.Override.CardAreaAppearance = Appearance8
+        Appearance9.BackColor = System.Drawing.Color.FromArgb(CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer), CType(CType(249, Byte), Integer))
+        Appearance9.BackColor2 = System.Drawing.Color.FromArgb(CType(CType(168, Byte), Integer), CType(CType(167, Byte), Integer), CType(CType(191, Byte), Integer))
+        Appearance9.BackGradientStyle = Infragistics.Win.GradientStyle.Vertical
+        Appearance9.ForeColor = System.Drawing.Color.Black
+        Appearance9.TextHAlignAsString = "Left"
+        Appearance9.ThemedElementAlpha = Infragistics.Win.Alpha.Transparent
+        Me.GVConceptos.DisplayLayout.Override.HeaderAppearance = Appearance9
+        Appearance10.BorderColor = System.Drawing.Color.FromArgb(CType(CType(168, Byte), Integer), CType(CType(167, Byte), Integer), CType(CType(191, Byte), Integer))
+        Me.GVConceptos.DisplayLayout.Override.RowAppearance = Appearance10
+        Appearance11.BackColor = System.Drawing.Color.FromArgb(CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer), CType(CType(249, Byte), Integer))
+        Appearance11.BackColor2 = System.Drawing.Color.FromArgb(CType(CType(168, Byte), Integer), CType(CType(167, Byte), Integer), CType(CType(191, Byte), Integer))
+        Appearance11.BackGradientStyle = Infragistics.Win.GradientStyle.Vertical
+        Me.GVConceptos.DisplayLayout.Override.RowSelectorAppearance = Appearance11
         Me.GVConceptos.DisplayLayout.Override.RowSelectorWidth = 12
         Me.GVConceptos.DisplayLayout.Override.RowSpacingBefore = 2
-        Appearance6.BackColor = System.Drawing.Color.FromArgb(CType(CType(168, Byte), Integer), CType(CType(167, Byte), Integer), CType(CType(191, Byte), Integer))
-        Appearance6.BackColor2 = System.Drawing.Color.FromArgb(CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer), CType(CType(249, Byte), Integer))
-        Appearance6.BackGradientStyle = Infragistics.Win.GradientStyle.Vertical
-        Appearance6.ForeColor = System.Drawing.Color.Black
-        Me.GVConceptos.DisplayLayout.Override.SelectedRowAppearance = Appearance6
+        Appearance12.BackColor = System.Drawing.Color.FromArgb(CType(CType(168, Byte), Integer), CType(CType(167, Byte), Integer), CType(CType(191, Byte), Integer))
+        Appearance12.BackColor2 = System.Drawing.Color.FromArgb(CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer), CType(CType(249, Byte), Integer))
+        Appearance12.BackGradientStyle = Infragistics.Win.GradientStyle.Vertical
+        Appearance12.ForeColor = System.Drawing.Color.Black
+        Me.GVConceptos.DisplayLayout.Override.SelectedRowAppearance = Appearance12
         Me.GVConceptos.DisplayLayout.Override.SelectTypeCell = Infragistics.Win.UltraWinGrid.SelectType.[Single]
         Me.GVConceptos.DisplayLayout.Override.SelectTypeRow = Infragistics.Win.UltraWinGrid.SelectType.[Single]
         Me.GVConceptos.DisplayLayout.RowConnectorColor = System.Drawing.Color.FromArgb(CType(CType(168, Byte), Integer), CType(CType(167, Byte), Integer), CType(CType(191, Byte), Integer))
@@ -289,10 +280,7 @@ Partial Class FrmConceptos
         UltraDataColumn32.DataType = GetType(Boolean)
         UltraDataColumn32.DefaultValue = False
         UltraDataColumn33.DataType = GetType(Boolean)
-        UltraDataColumn34.DataType = GetType(Boolean)
-        UltraDataColumn34.DefaultValue = False
-        UltraDataColumn34.ReadOnly = Infragistics.Win.DefaultableBoolean.[True]
-        Me.UDS_Conceptos.Band.Columns.AddRange(New Object() {UltraDataColumn1, UltraDataColumn2, UltraDataColumn3, UltraDataColumn4, UltraDataColumn5, UltraDataColumn6, UltraDataColumn7, UltraDataColumn8, UltraDataColumn9, UltraDataColumn10, UltraDataColumn11, UltraDataColumn12, UltraDataColumn13, UltraDataColumn14, UltraDataColumn15, UltraDataColumn16, UltraDataColumn17, UltraDataColumn18, UltraDataColumn19, UltraDataColumn20, UltraDataColumn21, UltraDataColumn22, UltraDataColumn23, UltraDataColumn24, UltraDataColumn25, UltraDataColumn26, UltraDataColumn27, UltraDataColumn28, UltraDataColumn29, UltraDataColumn30, UltraDataColumn31, UltraDataColumn32, UltraDataColumn33, UltraDataColumn34, UltraDataColumn35})
+        Me.UDS_Conceptos.Band.Columns.AddRange(New Object() {UltraDataColumn1, UltraDataColumn2, UltraDataColumn3, UltraDataColumn4, UltraDataColumn5, UltraDataColumn6, UltraDataColumn7, UltraDataColumn8, UltraDataColumn9, UltraDataColumn10, UltraDataColumn11, UltraDataColumn12, UltraDataColumn13, UltraDataColumn14, UltraDataColumn15, UltraDataColumn16, UltraDataColumn17, UltraDataColumn18, UltraDataColumn19, UltraDataColumn20, UltraDataColumn21, UltraDataColumn22, UltraDataColumn23, UltraDataColumn24, UltraDataColumn25, UltraDataColumn26, UltraDataColumn27, UltraDataColumn28, UltraDataColumn29, UltraDataColumn30, UltraDataColumn31, UltraDataColumn32, UltraDataColumn33})
         Me.UDS_Conceptos.Rows.AddRange(New Object() {New Infragistics.Win.UltraWinDataSource.UltraDataRow(New Object() {CType("Descripcion", Object), CType("sdsdsds", Object), CType("Prima", Object), CType(True, Object)})})
         '
         'FrmConceptos
