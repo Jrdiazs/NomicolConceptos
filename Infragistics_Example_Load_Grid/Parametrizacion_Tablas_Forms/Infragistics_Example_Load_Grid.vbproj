@@ -100,6 +100,24 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="CAPAS\1.Presentacion\FrmConceptosParaFiscalesSENA.Designer.vb">
+      <DependentUpon>FrmConceptosParaFiscalesSENA.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CAPAS\1.Presentacion\FrmConceptosParaFiscalesSENA.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CAPAS\1.Presentacion\FrmConceptosParafiscalesICBF.Designer.vb">
+      <DependentUpon>FrmConceptosParafiscalesICBF.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CAPAS\1.Presentacion\FrmConceptosParafiscalesICBF.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CAPAS\1.Presentacion\FrmConceptosParafiscalesCaja.Designer.vb">
+      <DependentUpon>FrmConceptosParafiscalesCaja.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CAPAS\1.Presentacion\FrmConceptosParafiscalesCaja.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="CAPAS\1.Presentacion\FrmConceptos.Designer.vb">
       <DependentUpon>FrmConceptos.vb</DependentUpon>
     </Compile>
@@ -112,13 +130,28 @@
     <Compile Include="CAPAS\1.Presentacion\FrmCajasCompensacion.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="CAPAS\4.AccesoDatos\Clases\Conceptos\ComunesConcepto.vb" />
     <Compile Include="CAPAS\3.Negocios\ConceptosNegocio.vb" />
     <Compile Include="CAPAS\3.Negocios\Negocio.vb" />
     <Compile Include="CAPAS\4.AccesoDatos\AccesoDatos.vb" />
     <Compile Include="CAPAS\4.AccesoDatos\Clases\CajasCompensacion.vb" />
-    <Compile Include="CAPAS\4.AccesoDatos\Clases\Conceptos.vb" />
+    <Compile Include="CAPAS\4.AccesoDatos\Clases\Conceptos\Conceptos.vb" />
     <Compile Include="CAPAS\4.AccesoDatos\AccesoDatosConcepto.vb" />
-    <Compile Include="CAPAS\4.AccesoDatos\Clases\ValorEntidad.vb" />
+    <Compile Include="CAPAS\4.AccesoDatos\Clases\Conceptos\ConceptosAportesParafiscalesCaja.vb" />
+    <Compile Include="CAPAS\4.AccesoDatos\Clases\Conceptos\ConceptosAportesParafiscalesICBF.vb" />
+    <Compile Include="CAPAS\4.AccesoDatos\Clases\Conceptos\ConceptosAportesParafiscalesSena.vb" />
+    <Compile Include="CAPAS\4.AccesoDatos\Clases\Conceptos\ConceptosCapacidadPago.vb" />
+    <Compile Include="CAPAS\4.AccesoDatos\Clases\Conceptos\ConceptosCesantias.vb" />
+    <Compile Include="CAPAS\4.AccesoDatos\Clases\Conceptos\ConceptosCesantiasFijo.vb" />
+    <Compile Include="CAPAS\4.AccesoDatos\Clases\Conceptos\ConceptosCesantiasVariables.vb" />
+    <Compile Include="CAPAS\4.AccesoDatos\Clases\Conceptos\ConceptosMediosMagneticos.vb" />
+    <Compile Include="CAPAS\4.AccesoDatos\Clases\Conceptos\ConceptosPensionesVoluntarias.vb" />
+    <Compile Include="CAPAS\4.AccesoDatos\Clases\Conceptos\ConceptosPrima.vb" />
+    <Compile Include="CAPAS\4.AccesoDatos\Clases\Conceptos\ConceptosPrimaFijoLiquidacion.vb" />
+    <Compile Include="CAPAS\4.AccesoDatos\Clases\Conceptos\ConceptosPrimaVariableLiquidacion.vb" />
+    <Compile Include="CAPAS\4.AccesoDatos\Clases\Conceptos\ConceptosPromedioVacaciones.vb" />
+    <Compile Include="CAPAS\4.AccesoDatos\Clases\Conceptos\ConceptosPromedioVacionesLiquidacion.vb" />
+    <Compile Include="CAPAS\4.AccesoDatos\Clases\Conceptos\ValorEntidad.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -134,8 +167,26 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="RecursosConceptos.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RecursosConceptos.resx</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="CAPAS\1.Presentacion\FrmConceptosParaFiscalesSENA.resx">
+      <DependentUpon>FrmConceptosParaFiscalesSENA.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CAPAS\1.Presentacion\FrmConceptosParafiscalesICBF.resx">
+      <DependentUpon>FrmConceptosParafiscalesICBF.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CAPAS\1.Presentacion\FrmConceptosParafiscalesCaja.resx">
+      <DependentUpon>FrmConceptosParafiscalesCaja.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
     <EmbeddedResource Include="CAPAS\1.Presentacion\FrmConceptos.resx">
       <DependentUpon>FrmConceptos.vb</DependentUpon>
       <SubType>Designer</SubType>
@@ -151,10 +202,16 @@
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="RecursosConceptos.resx">
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>RecursosConceptos.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="ClassDiagram1.cd" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
@@ -191,6 +248,12 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ConceptosImagenSave.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\ConceptosImagenDelete.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="CAPAS\2.ServiciosDistribuidos\" />

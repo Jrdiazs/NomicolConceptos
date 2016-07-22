@@ -6,7 +6,137 @@ Parametrizacion_Tablas_Forms
 </name>
 </assembly>
 <members>
-<member name="P:Parametrizacion_Tablas_Forms.ValorEntidad`1.Error">
+<member name="F:Parametrizacion_Tablas_Forms.FrmConceptosParaFiscalesSENA.Negocio">
+	<summary>
+ Clase de negocio de Conceptos
+ </summary>
+	<remarks>Juan Ricardo Diaz 2016-07-22</remarks>
+</member><member name="P:Parametrizacion_Tablas_Forms.FrmConceptosParaFiscalesSENA.ConceptosParafiscalesSENA">
+	<summary>
+ Lista de Conceptos Parafiscales SENA
+ </summary>
+	<value>As BindingList(Of ConceptosAportesParafiscalesSena)</value>
+	<returns>As BindingList(Of ConceptosAportesParafiscalesSena)</returns>
+	<remarks>Juan Ricardo Diaz 2016-07-22</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.FrmConceptosParaFiscalesSENA.FrmConceptosParafiscalesCaja_Load(System.Object,System.EventArgs)">
+	<summary>
+ Load FormularioParafiscalesCaja
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks>Juan Ricardo Diaz 2016-07-22</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.FrmConceptosParaFiscalesSENA.GVConceptosParafiscalesCaja_InitializeLayout(System.Object,Infragistics.Win.UltraWinGrid.InitializeLayoutEventArgs)">
+	<summary>
+ Metodo para inicializar el combo box de Conceptos en el campo Codigo de la grilla
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks>Juan Ricardo Diaz 2016-07-22</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.FrmConceptosParaFiscalesSENA.CargarGrid">
+	<summary>
+ Carga la grilla de conceptos parafiscales SENA
+ </summary>
+	<remarks>Juan Ricardo Diaz 2016-07-22</remarks>
+</member><member name="F:Parametrizacion_Tablas_Forms.FrmConceptosParaFiscalesICBF.Negocio">
+	<summary>
+ Clase de negocio de Conceptos
+ </summary>
+	<remarks>Juan Ricardo Diaz 2016-07-22</remarks>
+</member><member name="P:Parametrizacion_Tablas_Forms.FrmConceptosParaFiscalesICBF.ConceptosParafiscalesICBF">
+	<summary>
+ Lista de Conceptos Parafiscales ICBF
+ </summary>
+	<value>As BindingList(Of ConceptosAportesParafiscalesICBF)</value>
+	<returns>As BindingList(Of ConceptosAportesParafiscalesICBF)</returns>
+	<remarks>Juan Ricardo Diaz 2016-07-22</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.FrmConceptosParaFiscalesICBF.FrmConceptosParafiscalesCaja_Load(System.Object,System.EventArgs)">
+	<summary>
+ Load FormularioParafiscalesCaja
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks>Juan Ricardo Diaz 2016-07-22</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.FrmConceptosParaFiscalesICBF.GVConceptosParafiscalesCaja_InitializeLayout(System.Object,Infragistics.Win.UltraWinGrid.InitializeLayoutEventArgs)">
+	<summary>
+ Metodo para inicializar el combo box de Conceptos en el campo Codigo de la grilla
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks>Juan Ricardo Diaz 2016-07-22</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.FrmConceptosParaFiscalesICBF.CargarGrid">
+	<summary>
+ Carga la grilla de conceptos parafiscales ICBF
+ </summary>
+	<remarks>Juan Ricardo Diaz 2016-07-22</remarks>
+</member><member name="F:Parametrizacion_Tablas_Forms.FrmConceptosParaFiscalesCaja.Negocio">
+	<summary>
+ Clase de negocio de Conceptos
+ </summary>
+	<remarks>Juan Ricardo Diaz 2016-07-22</remarks>
+</member><member name="P:Parametrizacion_Tablas_Forms.FrmConceptosParaFiscalesCaja.ConceptosParafiscalesCaja">
+	<summary>
+ Lista de Conceptos Parafiscales Caja
+ </summary>
+	<value>As BindingList(Of ConceptosAportesParaFiscalesCaja)</value>
+	<returns>As BindingList(Of ConceptosAportesParaFiscalesCaja)</returns>
+	<remarks>Juan Ricardo Diaz 2016-07-22</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.FrmConceptosParaFiscalesCaja.FrmConceptosParafiscalesCaja_Load(System.Object,System.EventArgs)">
+	<summary>
+ Load FormularioParafiscalesCaja
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks>Juan Ricardo Diaz 2016-07-22</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.FrmConceptosParaFiscalesCaja.GVConceptosParafiscalesCaja_InitializeLayout(System.Object,Infragistics.Win.UltraWinGrid.InitializeLayoutEventArgs)">
+	<summary>
+ Metodo para inicializar el combo box de Conceptos en el campo Codigo de la grilla
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks>Juan Ricardo Diaz 2016-07-22</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.FrmConceptosParaFiscalesCaja.CargarGrid">
+	<summary>
+ Carga los datos en la grilla de conceptos parafiscales caja
+ </summary>
+	<remarks>Juan Ricardo Diaz 2016-07-22</remarks>
+</member><member name="P:Parametrizacion_Tablas_Forms.My.Resources.RecursosConceptos.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Parametrizacion_Tablas_Forms.My.Resources.RecursosConceptos.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:Parametrizacion_Tablas_Forms.My.Resources.RecursosConceptos">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="M:Parametrizacion_Tablas_Forms.ConceptosCapacidadPago.Validar(System.String@)">
+	<summary>
+ Metodo para validar la entidad de conceptos por medio de la clase ConceptosCapacidadPago
+ </summary>
+	<param name="Errores">retorna el mensaje de error de las validaciones de la entidad</param>
+	<returns>true si la entidad es valida</returns>
+	<remarks>Juan Ricardo Diaz - 2016-07-18</remarks>
+</member><member name="T:Parametrizacion_Tablas_Forms.ConceptosCapacidadPagoValidator">
+	<summary>
+ Clase para validar la clase entidad ConceptosCapacidadPago
+ </summary>
+	<remarks>Juan Ricardo Diaz - 2016-07-18</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.ConceptosPensionesVoluntarias.Validar(System.String@)">
+	<summary>
+ Metodo para validar la entidad de conceptos por medio de la clase ConceptosPensionesVoluntariasValidator
+ </summary>
+	<param name="Errores">retorna el mensaje de error de las validaciones de la entidad</param>
+	<returns>true si la entidad es valida</returns>
+	<remarks>Juan Ricardo Diaz - 2016-07-18</remarks>
+</member><member name="T:Parametrizacion_Tablas_Forms.ConceptosPensionesVoluntariasValidator">
+	<summary>
+ Clase para validar la clase entidad ConceptosPensionesVoluntariasValidator
+ </summary>
+	<remarks>Juan Ricardo Diaz - 2016-07-18</remarks>
+</member><member name="P:Parametrizacion_Tablas_Forms.ValorEntidad`1.Error">
 	<summary>
  Para identificar si se ha generado un error
  </summary>
@@ -67,44 +197,99 @@ Parametrizacion_Tablas_Forms
  Enum que representa el tipo de error de una entidad
  </summary>
 	<remarks>Juan Ricardo Diaz - 2016-07-08</remarks>
-</member><member name="M:Parametrizacion_Tablas_Forms.FrmConceptos.FrmConceptos_Load(System.Object,System.EventArgs)">
+</member><member name="M:Parametrizacion_Tablas_Forms.ComunesConcepto.MostrarMensaje``1(Parametrizacion_Tablas_Forms.ValorEntidad{``0})">
 	<summary>
- Load Frame
+ Muestra un mensaje de alerta o error segun el resultao de ValorEntidad si existe o no error
  </summary>
-	<param name="sender"></param>
-	<param name="e"></param>
-	<remarks>Juan Ricardo Diaz - 2016-07-08</remarks>
-</member><member name="M:Parametrizacion_Tablas_Forms.FrmConceptos.CargarGridConceptos">
-	<summary>
- Carga el grid con el resultado de los conceptos
- </summary>
-	<remarks>Juan Ricardo Diaz - 2016-07-08</remarks>
-</member><member name="M:Parametrizacion_Tablas_Forms.FrmConceptos.GVConceptos_AfterRowInsert(System.Object,Infragistics.Win.UltraWinGrid.RowEventArgs)">
-	<summary>
- Metodo para insertar un nuevo concepto con el evento del grid view
- </summary>
-	<param name="sender"></param>
-	<param name="e"></param>
-	<remarks>Juan Ricardo Diaz - 2016-07-08</remarks>
-</member><member name="M:Parametrizacion_Tablas_Forms.FrmConceptos.MostrarMensaje``1(Parametrizacion_Tablas_Forms.ValorEntidad{``0})">
-	<summary>
- Metodo para mostrar un mensaje de error o advertencia segun el resultado de la entidad
- </summary>
-	<typeparam name="T">Type ValorEntidad</typeparam>
+	<typeparam name="T">ValorEntidad Valor</typeparam>
 	<param name="Resultado">ValorEntidad</param>
-	<remarks>Juan Ricardo Diaz - 2016-07-08</remarks>
-</member><member name="M:Parametrizacion_Tablas_Forms.ConceptosNegocio.GuardarConcepto(Parametrizacion_Tablas_Forms.Conceptos)">
+	<remarks>Juan Ricardo Diaz - 2016-07-18</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.ComunesConcepto.MostrarMensaje(System.String,System.Exception)">
 	<summary>
- Guarda o modifica el concepto
+ Muestra un mensaje de error personalizado junto con el message exception
  </summary>
-	<param name="Concepto">Concepto</param>
-	<remarks>Juan Ricardo Diaz 2016-07-07</remarks>
-</member><member name="M:Parametrizacion_Tablas_Forms.ConceptosNegocio.ConsultarConceptos">
+	<param name="Message">Mensaje personalizado</param>
+	<param name="ex">Exception</param>
+	<remarks>Juan Ricardo Diaz - 2016-07-18</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.ComunesConcepto.Validar``1(System.String@,FluentValidation.AbstractValidator{``0},``0)">
 	<summary>
- Lista todo los conceptos de base de datos
+ Valida Una Entidad Generica segun el AbstractValidator definido para cada clase
  </summary>
-	<returns></returns>
-	<remarks>Juan Ricardo Diaz 2016-07-07</remarks>
+	<typeparam name="T">Type of Entity </typeparam>
+	<param name="Errores">string que obtiene la descripcion del error</param>
+	<param name="AbstractValidator">Validador para cada clase entidad</param>
+	<param name="Entity">Objeto a validar</param>
+	<returns>true si la entidad no tiene errores, false si tiene por lo menos un error en alguna de sus propiedades</returns>
+	<remarks>Juan Ricardo Diaz - 2016-07-18</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.ComunesConcepto.ToListMap``1(System.Data.SqlClient.SqlDataReader)">
+	<summary>
+ Mapea los datos del SqlDataReader en una Lista generica
+ </summary>
+	<typeparam name="T">T Value</typeparam>
+	<param name="Reader">SqlDataReader</param>
+	<returns>List(Of T)</returns>
+	<remarks>Juan Ricardo Diaz - 2016-07-18</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.ComunesConcepto.BindingToList``1(System.Collections.Generic.List{``0},System.Boolean,System.Boolean,System.Boolean)">
+	<summary>
+ Convierte una lista generica a BindingToList
+ </summary>
+	<typeparam name="T">T Value entidad</typeparam>
+	<param name="List">List(Of T) Lista generica</param>
+	<param name="AllowEdit">AllowEdit</param>
+	<param name="AllowNew">AllowNew</param>
+	<param name="AllowRemove">AllowRemove</param>
+	<returns>As BindingList(Of T)</returns>
+	<remarks>Juan Ricardo Diaz - 2016-07-18</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.ComunesConcepto.IsNumeric(System.String)">
+	<summary>
+ Verifica si un string es un valor Numerico
+ </summary>
+	<param name="Value">string value</param>
+	<returns>true si es numerico</returns>
+	<remarks>Juan Ricardo Diaz - 2016-07-18</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.ConceptosAportesParafiscalesICBF.Validar(System.String@)">
+	<summary>
+ Metodo para validar la entidad de conceptos por medio de la clase ConceptosParafiscalesICBFValidator
+ </summary>
+	<param name="Errores">retorna el mensaje de error de las validaciones de la entidad</param>
+	<returns>true si la entidad es valida</returns>
+	<remarks>Juan Ricardo Diaz - 2016-07-18</remarks>
+</member><member name="T:Parametrizacion_Tablas_Forms.ConceptosParafiscalesICBFValidator">
+	<summary>
+ Clase para validar la clase entidad ConceptosAportesParafiscalesICBF
+ </summary>
+	<remarks>Juan Ricardo Diaz - 2016-07-18</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.ConceptosCesantiasFijo.Validar(System.String@)">
+	<summary>
+ Metodo para validar la entidad de conceptos por medio de la clase ConceptosCesantiasFijoValidator
+ </summary>
+	<param name="Errores">retorna el mensaje de error de las validaciones de la entidad</param>
+	<returns>true si la entidad es valida</returns>
+	<remarks>Juan Ricardo Diaz - 2016-07-18</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.ConceptosPrima.Validar(System.String@)">
+	<summary>
+ Metodo para validar la entidad de conceptos por medio de la clase ConceptosPrimaValidator
+ </summary>
+	<param name="Errores">retorna el mensaje de error de las validaciones de la entidad</param>
+	<returns>true si la entidad es valida</returns>
+	<remarks>Juan Ricardo Diaz - 2016-07-18</remarks>
+</member><member name="T:Parametrizacion_Tablas_Forms.ConceptosPrimaValidator">
+	<summary>
+ Clase para validar la clase entidad ConceptosPrima
+ </summary>
+	<remarks>Juan Ricardo Diaz - 2016-07-18</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.ConceptosPromedioVacaciones.Validar(System.String@)">
+	<summary>
+ Metodo para validar la entidad de conceptos por medio de la clase ConceptosPromedioVacacionesValidator
+ </summary>
+	<param name="Errores">retorna el mensaje de error de las validaciones de la entidad</param>
+	<returns>true si la entidad es valida</returns>
+	<remarks>Juan Ricardo Diaz - 2016-07-18</remarks>
+</member><member name="T:Parametrizacion_Tablas_Forms.ConceptosPromedioVacacionesValidator">
+	<summary>
+ Clase para validar la clase entidad ConceptosPromedioVacaciones
+ </summary>
+	<remarks>Juan Ricardo Diaz - 2016-07-18</remarks>
 </member><member name="M:Parametrizacion_Tablas_Forms.Conceptos.Validar(System.String@)">
 	<summary>
  Metodo para validar la entidad de conceptos por medio de la clase ConceptosValidator
@@ -122,6 +307,394 @@ Parametrizacion_Tablas_Forms
  Clase para validad la entidad de conceptos
  </summary>
 	<remarks>Juan Ricardo Diaz - 2016-07-08</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.ConceptosAportesParaFiscalesCaja.Validar(System.String@)">
+	<summary>
+ Metodo para validar la entidad de conceptos por medio de la clase ConceptosParafiscalesCajaValidator
+ </summary>
+	<param name="Errores">retorna el mensaje de error de las validaciones de la entidad</param>
+	<returns>true si la entidad es valida</returns>
+	<remarks>Juan Ricardo Diaz - 2016-07-18</remarks>
+</member><member name="T:Parametrizacion_Tablas_Forms.ConceptosParafiscalesCajaValidator">
+	<summary>
+ Clase para validar la clase entidad ConceptosAportesParafiscalesCaja
+ </summary>
+	<remarks>Juan Ricardo Diaz - 2016-07-18</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.ConceptosPrimaVariableLiquidacion.Validar(System.String@)">
+	<summary>
+ Metodo para validar la entidad de conceptos por medio de la clase ConceptosPrimaVariableLiquidacionValidator
+ </summary>
+	<param name="Errores">retorna el mensaje de error de las validaciones de la entidad</param>
+	<returns>true si la entidad es valida</returns>
+	<remarks>Juan Ricardo Diaz - 2016-07-18</remarks>
+</member><member name="T:Parametrizacion_Tablas_Forms.ConceptosPrimaVariableLiquidacionValidator">
+	<summary>
+ Clase para validar la clase entidad ConceptosPrimaVariableLiquidacion
+ </summary>
+	<remarks>Juan Ricardo Diaz - 2016-07-18</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.ConceptosNegocio.GuardarConcepto(Parametrizacion_Tablas_Forms.Conceptos)">
+	<summary>
+ Guarda o modifica el concepto
+ </summary>
+	<param name="Concepto">Concepto</param>
+	<returns>ValorEntidad(Of Conceptos)</returns>
+	<remarks>Juan Ricardo Diaz 2016-07-07</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.ConceptosNegocio.EliminarConcepto(System.Int32)">
+	<summary>
+ Elimina el concepto por id
+ </summary>
+	<param name="Codigo">Id del concepto</param>
+	<returns>As ValorEntidad(Of Integer) Integer Rows Affected</returns>
+	<remarks>Juan Ricardo Diaz 2016-07-07</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.ConceptosNegocio.ConsultarConceptos">
+	<summary>
+ Lista todo los conceptos de base de datos
+ </summary>
+	<returns>ValorEntidad(Of BindingList(Of Conceptos))</returns>
+	<remarks>Juan Ricardo Diaz 2016-07-07</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.ConceptosNegocio.EliminarConceptoParafiscalCaja(System.Int32)">
+	<summary>
+ Elimina el concepto para fiscal caja por id
+ </summary>
+	<param name="Codigo">Id del concepto</param>
+	<returns>As ValorEntidad(Of Integer) Integer Rows Affected</returns>
+	<remarks>Juan Ricardo Diaz 2016-07-07</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.ConceptosNegocio.ConsultarConceptosParafiscalesCaja">
+	<summary>
+ Lista todos los conceptos parafiscales Caja
+ </summary>
+	<returns>ValorEntidad(Of BindingList(Of ConceptosAportesParafiscalesCaja))</returns>
+	<remarks>Juan Ricardo Diaz 2016-07-18</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.ConceptosNegocio.ConsultarConceptosAportesParafiscalesCajaPorId(System.Int32)">
+	<summary>
+ Consulta el concepto parafiscal Caja por id
+ </summary>
+	<param name="Codigo">Id del concepto</param>
+	<returns>ValorEntidad(Of ConceptosAportesParafiscalesCaja)</returns>
+	<remarks>Juan Ricardo Diaz 2016-07-18</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.ConceptosNegocio.GuardarConceptoParafiscalCaja(Parametrizacion_Tablas_Forms.ConceptosAportesParaFiscalesCaja)">
+	<summary>
+ Guarda un concepto parafiscal Caja en base de datos
+ </summary>
+	<param name="ConceptoCaja">ConceptosAportesParafiscalesCaja</param>
+	<returns>As ValorEntidad(Of ConceptosAportesParafiscalesCaja)</returns>
+	<remarks>Juan Ricardo Diaz 2016-07-18</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.ConceptosNegocio.EliminarConceptoParafiscalSENA(System.Int32)">
+	<summary>
+ Elimina el concepto para fiscal SENA por id
+ </summary>
+	<param name="Codigo">Id del concepto</param>
+	<returns>As ValorEntidad(Of Integer) Integer Rows Affected</returns>
+	<remarks>Juan Ricardo Diaz 2016-07-07</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.ConceptosNegocio.GuardarConceptoParafiscalSena(Parametrizacion_Tablas_Forms.ConceptosAportesParafiscalesSena)">
+	<summary>
+ Guarda o modifica el concepto parafiscal Sena
+ </summary>
+	<param name="ConceptoSena">ConceptosAportesParafiscalesSena</param>
+	<returns>ConceptosAportesParafiscalesSena</returns>
+	<remarks>Juan Ricardo Diaz S 2016-07-18</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.ConceptosNegocio.ConsultarConceptosParafiscalesSena">
+	<summary>
+ Lista todos los conceptos parafiscales Sena
+ </summary>
+	<returns>ValorEntidad(Of BindingList(Of ConceptosAportesParafiscalesSena))</returns>
+	<remarks>Juan Ricardo Diaz 2016-07-18</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.ConceptosNegocio.EliminarConceptoParafiscalICBF(System.Int32)">
+	<summary>
+ Elimina el concepto para fiscal ICBF por id
+ </summary>
+	<param name="Codigo">Id del concepto</param>
+	<returns>As ValorEntidad(Of Integer) Integer Rows Affected</returns>
+	<remarks>Juan Ricardo Diaz 2016-07-07</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.ConceptosNegocio.GuardarConceptoParafiscalICBF(Parametrizacion_Tablas_Forms.ConceptosAportesParafiscalesICBF)">
+	<summary>
+ Guarda o modifica el concepto parafiscal ICBF
+ </summary>
+	<param name="ConceptoICBF">ConceptosAportesParafiscalesICBF</param>
+	<returns>ConceptosAportesParafiscalesICBF</returns>
+	<remarks>Juan Ricardo Diaz S 2016-07-18</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.ConceptosNegocio.ConsultarConceptosParafiscalesICBF">
+	<summary>
+ Lista todos los conceptos parafiscales ICBF
+ </summary>
+	<returns>ValorEntidad(Of BindingList(Of ConceptosAportesParafiscalesICBF))</returns>
+	<remarks>Juan Ricardo Diaz 2016-07-18</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.ConceptosNegocio.EliminarConceptoCapacidadPago(System.Int32)">
+	<summary>
+ Elimina el concepto capacidad pago
+ </summary>
+	<param name="Codigo">Id del concepto</param>
+	<returns>As ValorEntidad(Of Integer) Integer Rows Affected</returns>
+	<remarks>Juan Ricardo Diaz 2016-07-07</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.ConceptosNegocio.GuardarConceptoCapacidadPago(Parametrizacion_Tablas_Forms.ConceptosCapacidadPago)">
+	<summary>
+ Guarda o modifica el concepto capacidad de pago
+ </summary>
+	<param name="ConceptoPago">ConceptosCapacidadPago</param>
+	<returns>ConceptosCapacidadPago</returns>
+	<remarks>Juan Ricardo Diaz S 2016-07-18</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.ConceptosNegocio.ConsultarConceptosCapacidadPago">
+	<summary>
+ Lista todos los conceptos capacidad de pago
+ </summary>
+	<returns>ValorEntidad(Of BindingList(Of ConceptosCapacidadPago))</returns>
+	<remarks>Juan Ricardo Diaz 2016-07-18</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.ConceptosNegocio.EliminarConceptoCesantias(System.Int32)">
+	<summary>
+ Elimina el concepto cesantias por id
+ </summary>
+	<param name="Codigo">Id del concepto</param>
+	<returns>As ValorEntidad(Of Integer) Integer Rows Affected</returns>
+	<remarks>Juan Ricardo Diaz 2016-07-07</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.ConceptosNegocio.GuardarConceptoCesantias(Parametrizacion_Tablas_Forms.ConceptosCesantias)">
+	<summary>
+ Guarda o modifica el concepto cesantias
+ </summary>
+	<param name="ConceptoCesantias">ConceptoCesantias</param>
+	<returns>ConceptosCesantias</returns>
+	<remarks>Juan Ricardo Diaz S 2016-07-18</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.ConceptosNegocio.ConsultarConceptosCesantias">
+	<summary>
+ Lista todos los conceptos cesantias
+ </summary>
+	<returns>ValorEntidad(Of BindingList(Of ConceptosCesantias))</returns>
+	<remarks>Juan Ricardo Diaz 2016-07-18</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.ConceptosNegocio.EliminarConceptoCesantiasFijo(System.Int32)">
+	<summary>
+ Elimina el concepto cesantias fijo por id
+ </summary>
+	<param name="Codigo">Id del concepto</param>
+	<returns>As ValorEntidad(Of Integer) Integer Rows Affected</returns>
+	<remarks>Juan Ricardo Diaz 2016-07-07</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.ConceptosNegocio.GuardarConceptoCesantiasFijo(Parametrizacion_Tablas_Forms.ConceptosCesantiasFijo)">
+	<summary>
+ Guarda o modifica el concepto cesantias fijo
+ </summary>
+	<param name="ConceptoCesantias">ConceptosCesantiasFijo</param>
+	<returns>ConceptosCesantiasFijo</returns>
+	<remarks>Juan Ricardo Diaz S 2016-07-18</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.ConceptosNegocio.ConsultarConceptosCesantiasFijo">
+	<summary>
+ Lista todos los conceptos cesantias fijo
+ </summary>
+	<returns>ValorEntidad(Of BindingList(Of ConceptosCesantiasFijo))</returns>
+	<remarks>Juan Ricardo Diaz 2016-07-18</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.ConceptosNegocio.EliminarConceptoCesantiasVariable(System.Int32)">
+	<summary>
+ Elimina el concepto cesantias variable por id
+ </summary>
+	<param name="Codigo">Id del concepto</param>
+	<returns>As ValorEntidad(Of Integer) Integer Rows Affected</returns>
+	<remarks>Juan Ricardo Diaz 2016-07-07</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.ConceptosNegocio.GuardarConceptoCesantiasVariable(Parametrizacion_Tablas_Forms.ConceptosCesantiasVariables)">
+	<summary>
+ Guarda o modifica el concepto cesantias variable
+ </summary>
+	<param name="ConceptoCesantias">ConceptosCesantiasVariables</param>
+	<returns>ConceptosCesantiasVariables</returns>
+	<remarks>Juan Ricardo Diaz S 2016-07-18</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.ConceptosNegocio.ConsultarConceptosCesantiasVariable">
+	<summary>
+ Lista todos los conceptos cesantias variable
+ </summary>
+	<returns>ValorEntidad(Of BindingList(Of ConceptosCesantiasVariables))</returns>
+	<remarks>Juan Ricardo Diaz 2016-07-18</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.ConceptosNegocio.EliminarConceptoMediosMagneticos(System.Int32)">
+	<summary>
+ Elimina el concepto medios magneticos por id consecutivo
+ </summary>
+	<param name="Consecutivo">Id consecutivo concepto</param>
+	<returns>As ValorEntidad(Of Integer) Integer Rows Affected</returns>
+	<remarks>Juan Ricardo Diaz 2016-07-07</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.ConceptosNegocio.GuardarConceptosMediosMagneticos(Parametrizacion_Tablas_Forms.ConceptosMediosMagneticos)">
+	<summary>
+ Guarda o modifica el conceptos medios magnéticos
+ </summary>
+	<param name="Conceptos">ConceptosMediosMagneticos</param>
+	<returns>ConceptosMediosMagneticos</returns>
+	<remarks>Juan Ricardo Diaz S 2016-07-18</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.ConceptosNegocio.ConsultarConceptosMediosMagneticos">
+	<summary>
+ Lista todos los conceptos medios magnéticos
+ </summary>
+	<returns>ValorEntidad(Of BindingList(Of ConceptosMediosMagneticos))</returns>
+	<remarks>Juan Ricardo Diaz 2016-07-18</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.ConceptosNegocio.EliminarConceptoPensionesVoluntarias(System.Int32)">
+	<summary>
+ Elimina el concepto medios magneticos por id
+ </summary>
+	<param name="Codigo">Id del concepto</param>
+	<returns>As ValorEntidad(Of Integer) Integer Rows Affected</returns>
+	<remarks>Juan Ricardo Diaz 2016-07-07</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.ConceptosNegocio.ConsultarConceptosPensionesVoluntarias">
+	<summary>
+ Lista todos los conceptos pensiones voluntarias
+ </summary>
+	<returns>ValorEntidad(Of BindingList(Of ConceptosPensionesVoluntarias))</returns>
+	<remarks>Juan Ricardo Diaz 2016-07-18</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.ConceptosNegocio.ConsultarConceptosPensionesVoluntariasPorId(System.Int32)">
+	<summary>
+ Consulta el concepto de pensiones voluntarias
+ </summary>
+	<param name="Codigo">Id del concepto</param>
+	<returns>ValorEntidad(Of ConceptosPensionesVoluntarias)</returns>
+	<remarks>Juan Ricardo Diaz 2016-07-18</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.ConceptosNegocio.GuardarConceptoPensionesVoluntarias(Parametrizacion_Tablas_Forms.ConceptosPensionesVoluntarias)">
+	<summary>
+ Guarda un concepto pensiones voluntarias
+ </summary>
+	<param name="Concepto">ConceptosPensionesVoluntarias</param>
+	<returns>As ValorEntidad(Of ConceptosPensionesVoluntarias)</returns>
+	<remarks>Juan Ricardo Diaz 2016-07-18</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.ConceptosNegocio.EliminarConceptosPrima(System.Int32)">
+	<summary>
+ Elimina el concepto prima por id
+ </summary>
+	<param name="Codigo">Id del concepto</param>
+	<returns>As ValorEntidad(Of Integer) Integer Rows Affected</returns>
+	<remarks>Juan Ricardo Diaz 2016-07-07</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.ConceptosNegocio.ConsultarConceptosPrima">
+	<summary>
+ Lista todos los conceptos prima
+ </summary>
+	<returns>ValorEntidad(Of BindingList(Of ConceptosPrima))</returns>
+	<remarks>Juan Ricardo Diaz 2016-07-18</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.ConceptosNegocio.ConsultarConceptosPrimaPorId(System.Int32)">
+	<summary>
+ Consulta el concepto prima por id
+ </summary>
+	<param name="Codigo">Id del concepto</param>
+	<returns>ValorEntidad(Of ConceptosPrima)</returns>
+	<remarks>Juan Ricardo Diaz 2016-07-18</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.ConceptosNegocio.GuardarConceptoPrima(Parametrizacion_Tablas_Forms.ConceptosPrima)">
+	<summary>
+ Guarda o modifica un concepto prima
+ </summary>
+	<param name="Concepto">ConceptosPrima</param>
+	<returns>As ValorEntidad(Of ConceptosPrima)</returns>
+	<remarks>Juan Ricardo Diaz 2016-07-18</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.ConceptosNegocio.EliminarConceptosPrimaFijoLiquidacion(System.Int32)">
+	<summary>
+ Elimina el concepto prima fijo liquidacion por id
+ </summary>
+	<param name="Codigo">Id del concepto</param>
+	<returns>As ValorEntidad(Of Integer) Integer Rows Affected</returns>
+	<remarks>Juan Ricardo Diaz 2016-07-07</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.ConceptosNegocio.ConsultarConceptosPrimaFijoLiquidacion">
+	<summary>
+ Lista todos los conceptos prima fijo liquidacion
+ </summary>
+	<returns>ValorEntidad(Of BindingList(Of ConceptosPrimaFijoLiquidacion))</returns>
+	<remarks>Juan Ricardo Diaz 2016-07-18</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.ConceptosNegocio.ConsultarConceptosPrimaFijoLiquidacionPorId(System.Int32)">
+	<summary>
+ Consulta el concepto prima por id
+ </summary>
+	<param name="Codigo">Id del concepto</param>
+	<returns>ValorEntidad(Of ConceptosPrimaFijoLiquidacion)</returns>
+	<remarks>Juan Ricardo Diaz 2016-07-18</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.ConceptosNegocio.GuardarConceptoPrimaFijoLiquidacion(Parametrizacion_Tablas_Forms.ConceptosPrimaFijoLiquidacion)">
+	<summary>
+ Guarda o modifica un concepto prima fijo liquidación
+ </summary>
+	<param name="Concepto">ConceptosPrima</param>
+	<returns>As ValorEntidad(Of ConceptosPrimaFijoLiquidacion)</returns>
+	<remarks>Juan Ricardo Diaz 2016-07-18</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.ConceptosNegocio.EliminarConceptosPrimaVariableLiquidacion(System.Int32)">
+	<summary>
+ Elimina el concepto prima variable liquidacion
+ </summary>
+	<param name="Consecutivo">Id consecutivo concepto</param>
+	<returns>As ValorEntidad(Of Integer) Integer Rows Affected</returns>
+	<remarks>Juan Ricardo Diaz 2016-07-07</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.ConceptosNegocio.GuardarConceptosPrimaVariableLiquidacion(Parametrizacion_Tablas_Forms.ConceptosPrimaVariableLiquidacion)">
+	<summary>
+ Guarda o modifica el conceptos prima variable liquidación
+ </summary>
+	<param name="Conceptos">ConceptosPrimaVariableLiquidacion</param>
+	<returns>ConceptosPrimaVariableLiquidacion</returns>
+	<remarks>Juan Ricardo Diaz S 2016-07-18</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.ConceptosNegocio.ConsultarConceptosPrimaVariableLiquidacion">
+	<summary>
+ Lista todos los conceptos prima variable liquidación
+ </summary>
+	<returns>ValorEntidad(Of BindingList(Of ConceptosPrimaVariableLiquidacion))</returns>
+	<remarks>Juan Ricardo Diaz 2016-07-18</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.ConceptosNegocio.EliminarConceptosPromedioVacaciones(System.Int32)">
+	<summary>
+ Elimina el concepto promedio vacaciones
+ </summary>
+	<param name="Consecutivo">Id consecutivo concepto</param>
+	<returns>As ValorEntidad(Of Integer) Integer Rows Affected</returns>
+	<remarks>Juan Ricardo Diaz 2016-07-07</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.ConceptosNegocio.GuardarConceptosPromedioVacaciones(Parametrizacion_Tablas_Forms.ConceptosPromedioVacaciones)">
+	<summary>
+ Guarda o modifica el conceptos promedio vacaciones
+ </summary>
+	<param name="Conceptos">ConceptosPromedioVacaciones</param>
+	<returns>ConceptosPromedioVacaciones</returns>
+	<remarks>Juan Ricardo Diaz S 2016-07-18</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.ConceptosNegocio.ConsultarConceptosPromedioVacaciones">
+	<summary>
+ Lista todos los conceptos promedio vacaciones
+ </summary>
+	<returns>ValorEntidad(Of BindingList(Of ConceptosPromedioVacaciones))</returns>
+	<remarks>Juan Ricardo Diaz 2016-07-18</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.ConceptosNegocio.EliminarConceptosPromedioVacacionesLiquidacion(System.Int32)">
+	<summary>
+ Elimina el concepto promedio vacaciones liquidacion
+ </summary>
+	<param name="Consecutivo">Id consecutivo concepto</param>
+	<returns>As ValorEntidad(Of Integer) Integer Rows Affected</returns>
+	<remarks>Juan Ricardo Diaz 2016-07-07</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.ConceptosNegocio.GuardarConceptosPromedioVacacionesLiquidacion(Parametrizacion_Tablas_Forms.ConceptosPromedioVacionesLiquidacion)">
+	<summary>
+ Guarda o modifica el conceptos promedio vacaciones liquidacion
+ </summary>
+	<param name="Conceptos">ConceptosPromedioVacionesLiquidacion</param>
+	<returns>ConceptosPromedioVacionesLiquidacion</returns>
+	<remarks>Juan Ricardo Diaz S 2016-07-18</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.ConceptosNegocio.ConsultarConceptosPromedioVacacionesLiquidacion">
+	<summary>
+ Lista todos los conceptos promedio vacaciones liquidación
+ </summary>
+	<returns>ValorEntidad(Of BindingList(Of ConceptosPromedioVacionesLiquidacion))</returns>
+	<remarks>Juan Ricardo Diaz 2016-07-18</remarks>
+</member><member name="T:Parametrizacion_Tablas_Forms.ConceptosNegocio">
+	<summary>
+ Clase de negocio para las tablas de conceptos
+ </summary>
+	<remarks>Juan Ricardo Diaz 2016-07-06</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.ConceptosCesantias.Validar(System.String@)">
+	<summary>
+ Metodo para validar la entidad de conceptos por medio de la clase ConceptosCesantiasValidator
+ </summary>
+	<param name="Errores">retorna el mensaje de error de las validaciones de la entidad</param>
+	<returns>true si la entidad es valida</returns>
+	<remarks>Juan Ricardo Diaz - 2016-07-18</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.ConceptosCesantiasVariables.Validar(System.String@)">
+	<summary>
+ Metodo para validar la entidad de conceptos por medio de la clase ConceptosCesantiasVariablesValidator
+ </summary>
+	<param name="Errores">retorna el mensaje de error de las validaciones de la entidad</param>
+	<returns>true si la entidad es valida</returns>
+	<remarks>Juan Ricardo Diaz - 2016-07-18</remarks>
+</member><member name="T:Parametrizacion_Tablas_Forms.ConceptosCesantiasVariablesValidator">
+	<summary>
+ Clase para validar la clase entidad ConceptosCesantiasVariables
+ </summary>
+	<remarks>Juan Ricardo Diaz - 2016-07-18</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.ConceptosAportesParafiscalesSena.Validar(System.String@)">
+	<summary>
+ Metodo para validar la entidad de conceptos por medio de la clase ConceptosAportesParafiscalesSena
+ </summary>
+	<param name="Errores">retorna el mensaje de error de las validaciones de la entidad</param>
+	<returns>true si la entidad es valida</returns>
+	<remarks>Juan Ricardo Diaz - 2016-07-18</remarks>
+</member><member name="T:Parametrizacion_Tablas_Forms.ConceptosParafiscalesSenaValidator">
+	<summary>
+ Clase para validar la clase entidad ConceptosAportesParafiscalesSena
+ </summary>
+	<remarks>Juan Ricardo Diaz - 2016-07-18</remarks>
 </member><member name="M:Parametrizacion_Tablas_Forms.AccesoDatosConcepto.ParametroInput(System.String,System.Object)">
 	<summary>
  Crear un SqlParameter tipo Input
@@ -147,6 +720,13 @@ Parametrizacion_Tablas_Forms
 	<param name="Size">Tamaño en longitud del parametro</param>
 	<returns>SqlParameter</returns>
 	<remarks>Juan Ricardo Diaz - 2016-07-07</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.AccesoDatosConcepto.EliminarConcepto(System.Int32)">
+	<summary>
+ Elimina el concepto por id Codigo
+ </summary>
+	<param name="Codigo">Id Codigo</param>
+	<returns>Integer return rows affecteed</returns>
+	<remarks>Juan R Diaz 2016-07-07</remarks>
 </member><member name="M:Parametrizacion_Tablas_Forms.AccesoDatosConcepto.ConsultarConceptos(System.Nullable{System.Int32},System.String)">
 	<summary>
  Consulta todo el listado de la tabla conceptos
@@ -169,6 +749,462 @@ Parametrizacion_Tablas_Forms
 	<param name="Concepto">Concepto</param>
 	<returns></returns>
 	<remarks>Juan Ricardo Diaz 2016-07-07</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.AccesoDatosConcepto.EliminarConceptoParafiscalCaja(System.Int32)">
+	<summary>
+ Elimina el concepto parafiscal caja por id Codigo
+ </summary>
+	<param name="Codigo">Id Codigo</param>
+	<returns>Integer return rows affecteed</returns>
+	<remarks>Juan R Diaz 2016-07-07</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.AccesoDatosConcepto.ConsultarConceptosAportesParafiscalesCaja(System.Nullable{System.Int32})">
+	<summary>
+ Consulta todo el listado de la tabla CONCEPTOS_APORTES_PARAFISCALES_CAJA
+ </summary>
+	<param name="Codigo">Codigo del concepto</param>
+	<returns></returns>
+	<remarks>Juan R Diaz 2016-07-12</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.AccesoDatosConcepto.ConsultarConceptosAportesParafiscalesCajaPorId(System.Int32)">
+	<summary>
+ Consulta el concepto aporte parafiscal caja por id
+ </summary>
+	<param name="Codigo">Codigo del concepto</param>
+	<returns>ConceptosAportesParafiscalesCaja</returns>
+	<remarks>Juan R Diaz 2016-07-12</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.AccesoDatosConcepto.GuardarConceptoParafiscalCaja(Parametrizacion_Tablas_Forms.ConceptosAportesParaFiscalesCaja)">
+	<summary>
+ Guarda o modifica el concepto parafiscal caja
+ </summary>
+	<param name="Concepto">Concepto</param>
+	<returns></returns>
+	<remarks>Juan Ricardo Diaz 2016-07-12</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.AccesoDatosConcepto.EliminarConceptoParafiscalICBF(System.Int32)">
+	<summary>
+ Elimina el concepto parafiscal ICBF por id Codigo
+ </summary>
+	<param name="Codigo">Id Codigo</param>
+	<returns>Integer return rows affecteed</returns>
+	<remarks>Juan R Diaz 2016-07-07</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.AccesoDatosConcepto.ConsultarConceptosAportesParafiscalesICBF(System.Nullable{System.Int32})">
+	<summary>
+ Consulta todo el listado de la tabla CONCEPTOS_APORTES_PARAFISCALES_ICBF
+ </summary>
+	<param name="Codigo">Codigo del concepto</param>
+	<returns></returns>
+	<remarks>Juan R Diaz 2016-07-12</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.AccesoDatosConcepto.ConsultarConceptosAportesParafiscalesICBFPorId(System.Int32)">
+	<summary>
+ Consulta el concepto aporte parafiscal ICBF por id
+ </summary>
+	<param name="Codigo">Codigo del concepto</param>
+	<returns>ConceptosAportesParafiscalesICBF</returns>
+	<remarks>Juan R Diaz 2016-07-12</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.AccesoDatosConcepto.GuardarConceptoParafiscalICBF(Parametrizacion_Tablas_Forms.ConceptosAportesParafiscalesICBF)">
+	<summary>
+ Guarda o modifica el concepto parafiscal ICBF
+ </summary>
+	<param name="Concepto">Concepto</param>
+	<returns></returns>
+	<remarks>Juan Ricardo Diaz 2016-07-12</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.AccesoDatosConcepto.EliminarConceptoParafiscalSENA(System.Int32)">
+	<summary>
+ Elimina el concepto parafiscal SENA por id Codigo
+ </summary>
+	<param name="Codigo">Id Codigo</param>
+	<returns>Integer return rows affecteed</returns>
+	<remarks>Juan R Diaz 2016-07-07</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.AccesoDatosConcepto.GuardarConceptoParafiscalSena(Parametrizacion_Tablas_Forms.ConceptosAportesParafiscalesSena)">
+	<summary>
+ Guarda o modifica el concepto parafiscal Sena
+ </summary>
+	<param name="Concepto">Concepto</param>
+	<returns></returns>
+	<remarks>Juan Ricardo Diaz 2016-07-12</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.AccesoDatosConcepto.ConsultarConceptosAportesParafiscalesSENA(System.Nullable{System.Int32})">
+	<summary>
+ Consulta todo el listado de la tabla ConceptosAportesParafiscalesSena
+ </summary>
+	<param name="Codigo">Codigo del concepto</param>
+	<returns></returns>
+	<remarks>Juan R Diaz 2016-07-18</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.AccesoDatosConcepto.ConsultarConceptosAportesParafiscalesSenaPorId(System.Int32)">
+	<summary>
+ Consulta el concepto aporte parafiscal Sena por id
+ </summary>
+	<param name="Codigo">Codigo del concepto</param>
+	<returns>ConceptosAportesParafiscalesSena</returns>
+	<remarks>Juan R Diaz 2016-07-18</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.AccesoDatosConcepto.EliminarConceptoCapacidadPago(System.Int32)">
+	<summary>
+ Elimina el concepto capacidad pago por id Codigo
+ </summary>
+	<param name="Codigo">Id Codigo</param>
+	<returns>Integer return rows affecteed</returns>
+	<remarks>Juan R Diaz 2016-07-07</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.AccesoDatosConcepto.GuardarConceptoCapacidadPago(Parametrizacion_Tablas_Forms.ConceptosCapacidadPago)">
+	<summary>
+ Guarda o modifica el concepto capacidad de pago
+ </summary>
+	<param name="Concepto">Concepto</param>
+	<returns></returns>
+	<remarks>Juan Ricardo Diaz 2016-07-18</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.AccesoDatosConcepto.ConsultarConceptosCapacidadPago(System.Nullable{System.Int32})">
+	<summary>
+ Consulta todo el listado de la tabla ConceptosCapacidadPago
+ </summary>
+	<returns></returns>
+	<remarks>Juan R Diaz 2016-07-18</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.AccesoDatosConcepto.ConsultarConceptosCapacidadPagoPorId(System.Int32)">
+	<summary>
+ Consulta el concepto capacidad de pago por id
+ </summary>
+	<param name="Codigo">Codigo del concepto</param>
+	<returns>ConceptosCapacidadPago</returns>
+	<remarks>Juan R Diaz 2016-07-18</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.AccesoDatosConcepto.EliminarConceptoCesantias(System.Int32)">
+	<summary>
+ Elimina el concepto cesantias por id Codigo
+ </summary>
+	<param name="Codigo">Id Codigo</param>
+	<returns>Integer return rows affecteed</returns>
+	<remarks>Juan R Diaz 2016-07-07</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.AccesoDatosConcepto.GuardarConceptoCesantias(Parametrizacion_Tablas_Forms.ConceptosCesantias)">
+	<summary>
+ Guarda o modifica el concepto cesantias
+ </summary>
+	<param name="Concepto">Concepto</param>
+	<returns></returns>
+	<remarks>Juan Ricardo Diaz 2016-07-18</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.AccesoDatosConcepto.ConsultarConceptosCesantias(System.Nullable{System.Int32})">
+	<summary>
+ Consulta todo el listado de la tabla ConceptosCesantias
+ </summary>
+	<returns></returns>
+	<remarks>Juan R Diaz 2016-07-18</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.AccesoDatosConcepto.ConsultarConceptosCesantiasPorId(System.Int32)">
+	<summary>
+ Consulta el concepto cesantias por id
+ </summary>
+	<param name="Codigo">Codigo del concepto</param>
+	<returns>ConceptosCesantias</returns>
+	<remarks>Juan R Diaz 2016-07-18</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.AccesoDatosConcepto.EliminarConceptoCesantiasFijo(System.Int32)">
+	<summary>
+ Elimina el concepto cesantias fijo por id Codigo
+ </summary>
+	<param name="Codigo">Id Codigo</param>
+	<returns>Integer return rows affecteed</returns>
+	<remarks>Juan R Diaz 2016-07-07</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.AccesoDatosConcepto.GuardarConceptoCesantiasFijo(Parametrizacion_Tablas_Forms.ConceptosCesantiasFijo)">
+	<summary>
+ Guarda o modifica el concepto cesantias fijo
+ </summary>
+	<param name="Concepto">Concepto</param>
+	<returns></returns>
+	<remarks>Juan Ricardo Diaz 2016-07-18</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.AccesoDatosConcepto.ConsultarConceptosCesantiasFijo(System.Nullable{System.Int32})">
+	<summary>
+ Consulta todo el listado de la tabla ConceptosCesantiasFijo
+ </summary>
+	<returns></returns>
+	<remarks>Juan R Diaz 2016-07-18</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.AccesoDatosConcepto.ConsultarConceptosCesantiasFijoPorId(System.Int32)">
+	<summary>
+ Consulta el concepto cesantias fijo por id
+ </summary>
+	<param name="Codigo">Codigo del concepto</param>
+	<returns>ConceptosCesantiasFijo</returns>
+	<remarks>Juan R Diaz 2016-07-18</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.AccesoDatosConcepto.EliminarConceptoCesantiasVariable(System.Int32)">
+	<summary>
+ Elimina el concepto cesantias variable por id Codigo
+ </summary>
+	<param name="Codigo">Id Codigo</param>
+	<returns>Integer return rows affecteed</returns>
+	<remarks>Juan R Diaz 2016-07-07</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.AccesoDatosConcepto.GuardarConceptoCesantiasVariable(Parametrizacion_Tablas_Forms.ConceptosCesantiasVariables)">
+	<summary>
+ Guarda o modifica el concepto cesantias Variable
+ </summary>
+	<param name="Concepto">Concepto</param>
+	<returns></returns>
+	<remarks>Juan Ricardo Diaz 2016-07-18</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.AccesoDatosConcepto.ConsultarConceptosCesantiasVariable(System.Nullable{System.Int32})">
+	<summary>
+ Consulta todo el listado de la tabla ConceptosCesantiasVariables
+ </summary>
+	<returns></returns>
+	<remarks>Juan R Diaz 2016-07-18</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.AccesoDatosConcepto.ConsultarConceptosCesantiasVariablePorId(System.Int32)">
+	<summary>
+ Consulta el concepto cesantias variable fijo por id
+ </summary>
+	<param name="Codigo">Codigo del concepto</param>
+	<returns>ConceptosCesantiasVariables</returns>
+	<remarks>Juan R Diaz 2016-07-18</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.AccesoDatosConcepto.EliminarConceptoMediosMagneticos(System.Int32)">
+	<summary>
+ Elimina el concepto medios magneticos por id Consecutivo
+ </summary>
+	<param name="Consecutivo">Id Consec</param>
+	<returns>Integer return rows affecteed</returns>
+	<remarks>Juan R Diaz 2016-07-07</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.AccesoDatosConcepto.GuardarConceptoMediosMagneticos(Parametrizacion_Tablas_Forms.ConceptosMediosMagneticos)">
+	<summary>
+ Guarda o modifica el concepto medios magneticos
+ </summary>
+	<param name="Concepto">Concepto</param>
+	<returns></returns>
+	<remarks>Juan Ricardo Diaz 2016-07-18</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.AccesoDatosConcepto.ConsultarConceptoMediosMagneticos(System.Nullable{System.Int32},System.Nullable{System.Int32})">
+	<summary>
+ Consulta todo el listado de la tabla ConceptosMediosMagneticos
+ </summary>
+	<returns></returns>
+	<remarks>Juan R Diaz 2016-07-18</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.AccesoDatosConcepto.ConsultarConceptoMediosMagneticosPorIdConsecutivo(System.Int32)">
+	<summary>
+ Consulta el concepto medios magneticos por id consecutivo
+ </summary>
+	<param name="Consecutivo">Id Consecutvio</param>
+	<returns>ConceptosMediosMagneticos</returns>
+	<remarks>Juan R Diaz 2016-07-18</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.AccesoDatosConcepto.ConsultarConceptoMediosMagneticosPorIdCodigo(System.Int32)">
+	<summary>
+ Consulta el concepto medios magneticos por id codigo
+ </summary>
+	<param name="Codigo">Id Codigo</param>
+	<returns>ConceptosMediosMagneticos</returns>
+	<remarks>Juan R Diaz 2016-07-18</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.AccesoDatosConcepto.EliminarConceptoPensionesVoluntarias(System.Int32)">
+	<summary>
+ Elimina el concepto pensiones voluntarias por id Codigo
+ </summary>
+	<param name="Codigo">Id Codigo</param>
+	<returns>Integer return rows affecteed</returns>
+	<remarks>Juan R Diaz 2016-07-07</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.AccesoDatosConcepto.GuardarConceptoPensionesVoluntarias(Parametrizacion_Tablas_Forms.ConceptosPensionesVoluntarias)">
+	<summary>
+ Guarda o modifica el concepto pensiones voluntarias
+ </summary>
+	<param name="Concepto">Concepto</param>
+	<returns></returns>
+	<remarks>Juan Ricardo Diaz 2016-07-18</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.AccesoDatosConcepto.ConsultarConceptoPensionesVoluntarias(System.Nullable{System.Int32})">
+	<summary>
+ Consulta todo el listado de la tabla ConceptosPensionesVoluntarias
+ </summary>
+	<returns></returns>
+	<remarks>Juan R Diaz 2016-07-18</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.AccesoDatosConcepto.ConsultarConceptoPensionesVoluntariasPorId(System.Int32)">
+	<summary>
+ Consulta el concepto pensiones voluntarias por id
+ </summary>
+	<param name="Codigo">Codigo del concepto</param>
+	<returns>ConceptosPensionesVoluntarias</returns>
+	<remarks>Juan R Diaz 2016-07-18</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.AccesoDatosConcepto.EliminarConceptosPrima(System.Int32)">
+	<summary>
+ Elimina el conceptos prima por codigo id
+ </summary>
+	<param name="Codigo">Id Codigo</param>
+	<returns>Integer return rows affecteed</returns>
+	<remarks>Juan R Diaz 2016-07-07</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.AccesoDatosConcepto.GuardarConceptosPrima(Parametrizacion_Tablas_Forms.ConceptosPrima)">
+	<summary>
+ Guarda o modifica el conceptos prima fijo liquidacion
+ </summary>
+	<param name="Concepto">ConceptosPrima</param>
+	<returns></returns>
+	<remarks>Juan Ricardo Diaz 2016-07-18</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.AccesoDatosConcepto.ConsultarConceptosPrima(System.Nullable{System.Int32})">
+	<summary>
+ Consulta todo el listado de la tabla ConceptosPrima
+ </summary>
+	<returns>As List(Of ConceptosPrima)</returns>
+	<remarks>Juan R Diaz 2016-07-18</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.AccesoDatosConcepto.ConsultarConceptosPrimaPorId(System.Int32)">
+	<summary>
+ Consulta el concepto prima por id
+ </summary>
+	<param name="Codigo">Codigo del concepto</param>
+	<returns>ConceptosPrima</returns>
+	<remarks>Juan R Diaz 2016-07-18</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.AccesoDatosConcepto.EliminarConceptosPrimaFijoLiquidacion(System.Int32)">
+	<summary>
+ Elimina el conceptos prima liquidacion por codigo id
+ </summary>
+	<param name="Codigo">Id Codigo</param>
+	<returns>Integer return rows affecteed</returns>
+	<remarks>Juan R Diaz 2016-07-07</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.AccesoDatosConcepto.GuardarConceptosPrimaFijoLiquidacion(Parametrizacion_Tablas_Forms.ConceptosPrimaFijoLiquidacion)">
+	<summary>
+ Guarda o modifica el conceptos prima fijo liquidacion
+ </summary>
+	<param name="Concepto">ConceptosPrima</param>
+	<returns></returns>
+	<remarks>Juan Ricardo Diaz 2016-07-18</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.AccesoDatosConcepto.ConsultarConceptosPrimaFijoLiquidacion(System.Nullable{System.Int32})">
+	<summary>
+ Consulta todo el listado de la tabla ConceptosPrimaFijoLiquidacion
+ </summary>
+	<returns>As List(Of ConceptosPrimaFijoLiquidacion)</returns>
+	<remarks>Juan R Diaz 2016-07-18</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.AccesoDatosConcepto.ConsultarConceptosPrimaFijoLiquidacionPorId(System.Int32)">
+	<summary>
+ Consulta el concepto prima fijo liquidacion por id
+ </summary>
+	<param name="Codigo">Codigo del concepto</param>
+	<returns>ConceptosPrimaFijoLiquidacion</returns>
+	<remarks>Juan R Diaz 2016-07-18</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.AccesoDatosConcepto.EliminarConceptosPrimaVariableLiquidacion(System.Int32)">
+	<summary>
+ Elimina el concepto prima liquidacion por Consecutivo
+ </summary>
+	<param name="Consecutivo">Id Consecutivo</param>
+	<returns>Integer return rows affecteed</returns>
+	<remarks>Juan R Diaz 2016-07-07</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.AccesoDatosConcepto.GuardarConceptosPrimaVariableLiquidacion(Parametrizacion_Tablas_Forms.ConceptosPrimaVariableLiquidacion)">
+	<summary>
+ Guarda o modifica el concepto prima Variable liquidacion
+ </summary>
+	<param name="Concepto">ConceptosPrimaVariableLiquidacion</param>
+	<returns></returns>
+	<remarks>Juan Ricardo Diaz 2016-07-18</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.AccesoDatosConcepto.ConsultarConceptosPrimaVariableLiquidacion(System.Nullable{System.Int32},System.Nullable{System.Int32})">
+	<summary>
+ Consulta todo el listado de la tabla ConceptosPrimaVariableLiquidacion
+ </summary>
+	<returns>As List(Of ConceptosPrimaVariableLiquidacion)</returns>
+	<remarks>Juan R Diaz 2016-07-18</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.AccesoDatosConcepto.ConsultarConceptosPrimaVariableLiquidacionPorIdConsecutivo(System.Int32)">
+	<summary>
+ Consulta el concepto prima variable liquidacion por id
+ </summary>
+	<param name="Consecutivo">Codigo del concepto</param>
+	<returns>ConceptosPrimaVariableLiquidacion</returns>
+	<remarks>Juan R Diaz 2016-07-18</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.AccesoDatosConcepto.EliminarConceptosPromedioVacaciones(System.Int32)">
+	<summary>
+ Elimina el concepto promedio vacaciones por id codigo concepto
+ </summary>
+	<param name="CodigoConcepto">Codigo Concepto</param>
+	<returns>Integer return rows affecteed</returns>
+	<remarks>Juan R Diaz 2016-07-07</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.AccesoDatosConcepto.GuardarConceptosPromedioVacaciones(Parametrizacion_Tablas_Forms.ConceptosPromedioVacaciones)">
+	<summary>
+ Guarda o modifica el concepto promedio vacaciones 
+ </summary>
+	<param name="Concepto">ConceptosPromedioVacaciones</param>
+	<returns></returns>
+	<remarks>Juan Ricardo Diaz 2016-07-18</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.AccesoDatosConcepto.ConsultarConceptosPromedioVacaciones(System.Nullable{System.Int32})">
+	<summary>
+ Consulta todo el listado de la tabla ConceptosPromedioVacaciones
+ </summary>
+	<returns>As List(Of ConceptosPromedioVacaciones)</returns>
+	<remarks>Juan R Diaz 2016-07-18</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.AccesoDatosConcepto.ConsultarConceptosPromedioVacacionesPorId(System.Int32)">
+	<summary>
+ Consulta el concepto Promedio Vaciones por id codigo concepto
+ </summary>
+	<param name="Codigo">Codigo del concepto</param>
+	<returns>ConceptosPrimaVariableLiquidacion</returns>
+	<remarks>Juan R Diaz 2016-07-18</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.AccesoDatosConcepto.EliminarConceptosPromedioVacacionesLiquidacion(System.Int32)">
+	<summary>
+ Elimina el concepto promedio vacaciones Liquidacion por id codigo Consecutivo
+ </summary>
+	<param name="Consecutivo">Codigo Consecutivo</param>
+	<returns>Integer return rows affecteed</returns>
+	<remarks>Juan R Diaz 2016-07-07</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.AccesoDatosConcepto.GuardarConceptosPromedioVacacionesLiquidacion(Parametrizacion_Tablas_Forms.ConceptosPromedioVacionesLiquidacion)">
+	<summary>
+ Guarda o modifica el concepto promedio vacaciones liquidación
+ </summary>
+	<param name="Concepto">ConceptosPromedioVacionesLiquidacion</param>
+	<returns></returns>
+	<remarks>Juan Ricardo Diaz 2016-07-18</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.AccesoDatosConcepto.ConsultarConceptosPromedioVacacionesLiquidacion(System.Nullable{System.Int32})">
+	<summary>
+ Consulta todo el listado de la tabla ConceptosPromedioVacionesLiquidacion
+ </summary>
+	<returns>As List(Of ConceptosPromedioVacionesLiquidacion)</returns>
+	<remarks>Juan R Diaz 2016-07-18</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.AccesoDatosConcepto.ConsultarConceptosPromedioVacacionesLiquidacionPorId(System.Int32)">
+	<summary>
+ Consulta el concepto Promedio Vaciones Liquidacion por id consecutivo
+ </summary>
+	<param name="Consecutivo">Consecutivo del concepto</param>
+	<returns>ConceptosPrimaVariableLiquidacion</returns>
+	<remarks>Juan R Diaz 2016-07-18</remarks>
+</member><member name="T:Parametrizacion_Tablas_Forms.AccesoDatosConcepto">
+	<summary>
+ Clase de acceso a datos para las tablas de concetp
+ </summary>
+	<remarks>Juan Ricardo Diaz 2016-07-07</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.ConceptosPrimaFijoLiquidacion.Validar(System.String@)">
+	<summary>
+ Metodo para validar la entidad de conceptos por medio de la clase ConceptosPrimaFijoLiquidacionValidator
+ </summary>
+	<param name="Errores">retorna el mensaje de error de las validaciones de la entidad</param>
+	<returns>true si la entidad es valida</returns>
+	<remarks>Juan Ricardo Diaz - 2016-07-18</remarks>
+</member><member name="T:Parametrizacion_Tablas_Forms.ConceptosPrimaFijoLiquidacionValidator">
+	<summary>
+ Clase para validar la clase entidad ConceptosPrimaFijoLiquidacion
+ </summary>
+	<remarks>Juan Ricardo Diaz - 2016-07-18</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.FrmConceptos.FrmConceptos_Load(System.Object,System.EventArgs)">
+	<summary>
+ Load Frame
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks>Juan Ricardo Diaz - 2016-07-08</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.FrmConceptos.CargarGridConceptos">
+	<summary>
+ Carga el grid con el resultado de los conceptos
+ Prueba
+ </summary>
+	<remarks>Juan Ricardo Diaz - 2016-07-08</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.FrmConceptos.GVConceptos_AfterRowInsert(System.Object,Infragistics.Win.UltraWinGrid.RowEventArgs)">
+	<summary>
+ Metodo para insertar un nuevo concepto con el evento del grid view
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks>Juan Ricardo Diaz - 2016-07-08</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.FrmConceptos.MostrarMensaje``1(Parametrizacion_Tablas_Forms.ValorEntidad{``0})">
+	<summary>
+ Metodo para mostrar un mensaje de error o advertencia segun el resultado de la entidad
+ </summary>
+	<typeparam name="T">Type ValorEntidad</typeparam>
+	<param name="Resultado">ValorEntidad</param>
+	<remarks>Juan Ricardo Diaz - 2016-07-08</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.ConceptosMediosMagneticos.Validar(System.String@)">
+	<summary>
+ Metodo para validar la entidad de conceptos por medio de la clase ConceptosMediosMagneticosValidator
+ </summary>
+	<param name="Errores">retorna el mensaje de error de las validaciones de la entidad</param>
+	<returns>true si la entidad es valida</returns>
+	<remarks>Juan Ricardo Diaz - 2016-07-18</remarks>
+</member><member name="T:Parametrizacion_Tablas_Forms.ConceptosMediosMagneticosValidator">
+	<summary>
+ Clase para validar la clase entidad ConceptosMediosMagneticos
+ </summary>
+	<remarks>Juan Ricardo Diaz - 2016-07-18</remarks>
+</member><member name="M:Parametrizacion_Tablas_Forms.ConceptosPromedioVacionesLiquidacion.Validar(System.String@)">
+	<summary>
+ Metodo para validar la entidad de conceptos por medio de la clase ConceptosPromedioVacionesLiquidacionValidator
+ </summary>
+	<param name="Errores">retorna el mensaje de error de las validaciones de la entidad</param>
+	<returns>true si la entidad es valida</returns>
+	<remarks>Juan Ricardo Diaz - 2016-07-18</remarks>
+</member><member name="T:Parametrizacion_Tablas_Forms.ConceptosPromedioVacionesLiquidacionValidator">
+	<summary>
+ Clase para validar la clase entidad ConceptosPromedioVacionesLiquidacionValidator
+ </summary>
+	<remarks>Juan Ricardo Diaz - 2016-07-18</remarks>
 </member>
 </members>
 </doc>
